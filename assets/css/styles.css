@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/assets/images/bg-intro-mobile.png");
+  background-color: #ff7979;
+}
+
+@media (min-width: 640px) {
+  body {
+    background-image: url("/assets/images/bg-intro-desktop.png");
+  }
+}
+
+body .container main {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+body .container main h1 {
+  margin-top: 88px;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.29px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+body .container main p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+
+body .container article .subscription {
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 327px;
+  height: 88px;
+  background-color: #5e54a4;
+  border-radius: 10px;
+}
+
+body .container article .subscription p {
+  max-width: 194px;
+  font-size: 15px;
+  letter-spacing: 0.27px;
+  margin: 0;
+}
+
+body .container article .subscription p span {
+  font-weight: bold;
+}
+
+body .container article section {
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  margin-bottom: 68px;
+  padding: 24px;
+  width: 327px;
+  border-radius: 10px;
+  margin-top: 24px;
+  background-color: white;
+}
+
+body .container article section form input {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  width: 279px;
+  height: 56px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  font-weight: 600;
+  margin-bottom: 16px;
+  padding-left: 19.41px;
+}
+
+body .container article section .claim {
+  width: 279px;
+  height: 56px;
+  border-radius: 5px;
+  background-color: #38cc8b;
+  border: none;
+  margin-bottom: 8px;
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.14688);
+}
+
+body .container article section .claim p {
+  color: white;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body .container article section p {
+  margin: 0 auto;
+  max-width: 249px;
+  font-size: 11px;
+  line-height: 21px;
+  color: #bab7d4;
+}
+
+body .container article section p span {
+  color: #ff7979;
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .container main {
+    max-width: 525px;
+    text-align: left;
+  }
+  body .container main h1 {
+    margin-top: 0;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.52px;
+    margin-bottom: 11px;
+  }
+  body .container main p {
+    margin-bottom: 0;
+  }
+  body .container article .subscription {
+    width: 540px;
+    height: 60px;
+  }
+  body .container article .subscription p {
+    max-width: none;
+  }
+  body .container article section {
+    margin-bottom: 0;
+    width: 540px;
+    padding: 40px;
+  }
+  body .container article section form input {
+    margin-bottom: 20px;
+  }
+  body .container article section .claim {
+    width: 460px;
+  }
+  body .container article section p {
+    max-width: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
